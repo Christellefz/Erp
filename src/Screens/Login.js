@@ -1,5 +1,7 @@
 import './Login.css'
 
+import {Link} from 'react-router-dom'
+
 const Login = () => {
   return (
     <div className='Login'>
@@ -13,7 +15,9 @@ const Login = () => {
           Mot de passe
           <input type='text'></input>
         </label>
+        <Link to='/SignIn'>
         <button className='SignIn'>Je m'inscris</button>
+        </Link>
       </div>
     </div>
   )
