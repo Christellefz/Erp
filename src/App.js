@@ -1,6 +1,6 @@
 import './App.css'
 
-import { Route, Switch, withRouter } from 'react-router-dom'
+import { Route, Switch } from 'react-router-dom'
 
 import Login from './Screens/Login'
 import SignIn from './Screens/SignIn'
